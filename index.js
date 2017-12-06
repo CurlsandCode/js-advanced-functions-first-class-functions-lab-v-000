@@ -22,3 +22,7 @@ function fareDoubler (cost) {
 function fareTripler (fare) {
   return createFareMultiplier(3)(fare);
 }
+
+function selectDifferentDrivers (array,func) {
+  return func(array);
+}
